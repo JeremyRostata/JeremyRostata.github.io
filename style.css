@@ -1,0 +1,15 @@
+.nav-bar
+{
+	top: 0;
+	position: sticky;
+	z-index: 2;
+}
+.navbar
+{
+	background-color: darkcyan;
+}
+.navbar-nav
+{
+	float: right;
+	text-align: right;
+}
