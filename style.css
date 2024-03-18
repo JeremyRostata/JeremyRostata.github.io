@@ -1,15 +1,21 @@
-.nav-bar
-{
-	top: 0;
-	position: sticky;
-	z-index: 2;
+@tailwind base;
+
+#toggle:checked ~ label div.toggle-dot {
+  @apply translate-x-3;
 }
-.navbar
-{
-	background-color: darkcyan;
+
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar {
+  top: 0;
+  position: sticky;
+  z-index: 2;
 }
-.navbar-nav
-{
-	float: right;
-	text-align: right;
+.navbar {
+  background-color: darkcyan;
+}
+.navbar-nav {
+  float: right;
+  text-align: right;
 }
